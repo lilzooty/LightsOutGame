@@ -1,5 +1,6 @@
 
 
+
 import java.awt.BorderLayout;
 
 import javax.swing.ImageIcon;
@@ -26,6 +27,7 @@ public class LightsOutButton extends JButton {
 		row = rowNumber;
 		column = colNumber;
 		isOn = false;
+		
 		ImageIcon offImage = new ImageIcon("resources/off.png");
 		offLabel = new JLabel(offImage);
 		add(offLabel, BorderLayout.CENTER);
